@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>时钟的博客</title>
+  
+  <subtitle>我的学习记录以及一些分享</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://clockdra.github.io/"/>
+  <updated>2020-03-14T13:02:19.863Z</updated>
+  <id>https://clockdra.github.io/</id>
+  
+  <author>
+    <name>clockdra</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>今天开始写博客了</title>
+    <link href="https://clockdra.github.io/2020/03/14/%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B%E5%86%99%E5%8D%9A%E5%AE%A2%E4%BA%86/"/>
+    <id>https://clockdra.github.io/2020/03/14/%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B%E5%86%99%E5%8D%9A%E5%AE%A2%E4%BA%86/</id>
+    <published>2020-03-14T07:22:54.000Z</published>
+    <updated>2020-03-14T13:02:19.863Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前自己就打算写博客，记录一些自己的学习经历和自己的一些笔记。之前也考虑了很久要用什么平台。最后选择了用 <code>Hexo+GitHub+MarkDown+atom</code> 的方法。不过之前的时候觉得搭建太难了，搞了半天就放弃了，今天又弄了半天才搞定。中间走了很多弯路，而且自己太菜了刚刚接触这些犯了很多低级的错误。决定把一些自己的愚蠢错误记录下来，希望能帮助其它的小白。<br>下面以Windows系统为例介绍如何用 <code>Hexo</code> 在 <code>GitHub</code> 上搭建一个个人博客。  </p><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>先在电脑上面安装一些必备的软件。</p><ul><li>先安装 <code>Git</code></li><li>再安装 <code>Node</code></li></ul><p>还有</p><figure class="highlight c"><figcaption><span>测试</span><a href="https://clockdra.github.io">test</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">int</span> i;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>ko</p><pre><code>void main () {  int i;}</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;之前自己就打算写博客，记录一些自己的学习经历和自己的一些笔记。之前也考虑了很久要用什么平台。最后选择了用 &lt;code&gt;Hexo+GitHub+MarkDown+atom&lt;/code&gt; 的方法。不过之前的时候觉得搭建太难了，搞了半天就放弃了，今天又弄了半天才搞定。中间走了很多
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Hexo" scheme="https://clockdra.github.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://clockdra.github.io/2020/03/13/hello-world/"/>
+    <id>https://clockdra.github.io/2020/03/13/hello-world/</id>
+    <published>2020-03-13T14:39:15.130Z</published>
+    <updated>2020-03-13T14:39:15.130Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
