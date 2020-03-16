@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://clockdra.github.io/"/>
-  <updated>2020-03-14T13:02:19.863Z</updated>
+  <updated>2020-03-16T13:25:46.449Z</updated>
   <id>https://clockdra.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://clockdra.github.io/2020/03/14/%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B%E5%86%99%E5%8D%9A%E5%AE%A2%E4%BA%86/"/>
     <id>https://clockdra.github.io/2020/03/14/%E4%BB%8A%E5%A4%A9%E5%BC%80%E5%A7%8B%E5%86%99%E5%8D%9A%E5%AE%A2%E4%BA%86/</id>
     <published>2020-03-14T07:22:54.000Z</published>
-    <updated>2020-03-14T13:02:19.863Z</updated>
+    <updated>2020-03-16T13:25:46.449Z</updated>
     
-    <content type="html"><![CDATA[<p>之前自己就打算写博客，记录一些自己的学习经历和自己的一些笔记。之前也考虑了很久要用什么平台。最后选择了用 <code>Hexo+GitHub+MarkDown+atom</code> 的方法。不过之前的时候觉得搭建太难了，搞了半天就放弃了，今天又弄了半天才搞定。中间走了很多弯路，而且自己太菜了刚刚接触这些犯了很多低级的错误。决定把一些自己的愚蠢错误记录下来，希望能帮助其它的小白。<br>下面以Windows系统为例介绍如何用 <code>Hexo</code> 在 <code>GitHub</code> 上搭建一个个人博客。  </p><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>先在电脑上面安装一些必备的软件。</p><ul><li>先安装 <code>Git</code></li><li>再安装 <code>Node</code></li></ul><p>还有</p><figure class="highlight c"><figcaption><span>测试</span><a href="https://clockdra.github.io">test</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span> <span class="params">()</span> </span>&#123;</span><br><span class="line">  <span class="keyword">int</span> i;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>ko</p><pre><code>void main () {  int i;}</code></pre>]]></content>
+    <content type="html"><![CDATA[<p>之前自己就打算写博客，记录一些自己的学习经历和自己的一些笔记。之前也考虑了很久要用什么平台。最后选择了用 <code>Hexo+GitHub+MarkDown+atom</code> 的方法。不过之前的时候觉得搭建太难了，搞了半天就放弃了，今天又弄了半天才搞定。中间走了很多弯路，而且自己太菜了刚刚接触这些犯了很多低级的错误。决定把一些自己的愚蠢错误记录下来，希望能帮助其它的小白。<br>下面以Windows系统为例介绍如何用 <code>Hexo</code> 在 <code>GitHub</code> 上搭建一个个人博客。建议小白完全按照这个教程一步一步走，以免出错。  </p><h3 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h3><p>先在电脑上面安装一些必备的软件。</p><ul><li>先安装 <code>Git</code></li><li>再安装 <code>Node</code></li></ul><p>封面来自 <a href="https://apod.nasa.gov/apod/image/2003/SaturnMoon_Sojuel_960.jpg" target="_blank" rel="noopener">https://apod.nasa.gov/apod/image/2003/SaturnMoon_Sojuel_960.jpg</a></p>]]></content>
     
     <summary type="html">
     
@@ -35,8 +35,18 @@
     </summary>
     
     
+      <category term="教程" scheme="https://clockdra.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="Hexo教程" scheme="https://clockdra.github.io/categories/%E6%95%99%E7%A8%8B/Hexo%E6%95%99%E7%A8%8B/"/>
+    
     
       <category term="Hexo" scheme="https://clockdra.github.io/tags/Hexo/"/>
+    
+      <category term="踩过的坑" scheme="https://clockdra.github.io/tags/%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/"/>
+    
+      <category term="博客" scheme="https://clockdra.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="NexT" scheme="https://clockdra.github.io/tags/NexT/"/>
     
   </entry>
   
