@@ -41,8 +41,8 @@
         <category>Git</category>
       </categories>
       <tags>
-        <tag>错误</tag>
         <tag>错误记录</tag>
+        <tag>错误</tag>
         <tag>GitHub</tag>
         <tag>SSH</tag>
       </tags>
@@ -83,9 +83,9 @@
         <category>Ubuntu</category>
       </categories>
       <tags>
-        <tag>错误</tag>
-        <tag>错误记录</tag>
         <tag>问题</tag>
+        <tag>错误记录</tag>
+        <tag>错误</tag>
         <tag>Linux</tag>
         <tag>Ubuntu</tag>
         <tag>apt</tag>
@@ -121,9 +121,9 @@
         <category>Hexo</category>
       </categories>
       <tags>
-        <tag>错误</tag>
-        <tag>错误记录</tag>
         <tag>问题</tag>
+        <tag>错误记录</tag>
+        <tag>错误</tag>
         <tag>Hexo</tag>
       </tags>
   </entry>
