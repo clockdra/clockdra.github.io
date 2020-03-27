@@ -1,6 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo文章标题的错误</title>
+    <url>/2020/03/28/Hexo%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98%E7%9A%84%E9%94%99%E8%AF%AF/</url>
+    <content><![CDATA[<p><img src="https://www.nasa.gov/sites/default/files/thumbnails/image/phase01-gateway-2024_00003.jpg" alt="插图"></p>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>我写了一篇新博客 <a href="https://clockdra.github.io/2020/03/26/Linux%E6%9B%B4%E6%96%B0%E9%94%99%E8%AF%AF/">Linux更新错误</a> 。但是自己在创建博客的时候打的标题不是这个，在写完了之后自己打算改一个标题。于是我修改了新博客的文章对应的文件的名字。但是在自己重新生成提交博客之后发现文章还是不对，文章的标题还是之前的错误标题。  </p>
+<figure class="highlight bash"><figcaption><span>自己使用的命令记录</span></figcaption><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">"Linux的更新问题"</span>  <span class="comment">#这里是在创建新文章</span></span><br><span class="line">hexo g                     <span class="comment">#这里是生成新博客</span></span><br><span class="line">hexo d                     <span class="comment">#这里是提交文章</span></span><br><span class="line">mv <span class="built_in">source</span>/_posts/Linux的更新问题.md <span class="built_in">source</span>/_posts/Linux更新错误.md  <span class="comment">#重命名</span></span><br><span class="line">hexo g                     <span class="comment">#生成</span></span><br><span class="line">hexo d                     <span class="comment">#提交</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p><code>Hexo</code> 的博客文章标题不是由文件名决定的，而是由文章的 <code>title</code> 标签决定的。所以应该修改完文件的名字之后再修改文件的 <code>title</code> 标签元素。<br>之后再运行一下  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean                 <span class="comment">#清除之前的错误文件</span></span><br><span class="line">hexo g                     <span class="comment">#生成</span></span><br><span class="line">hexo d                     <span class="comment">#提交</span></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+封面图片来源 https://apod.nasa.gov/apod/image/2003/SaturnMoon_Sojuel_960.jpg
+]]></content>
+      <categories>
+        <category>错误记录</category>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>错误记录</tag>
+        <tag>错误</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Git不能登录的错误</title>
     <url>/2020/03/26/Git%E4%B8%8D%E8%83%BD%E7%99%BB%E5%BD%95%E7%9A%84%E9%94%99%E8%AF%AF/</url>
     <content><![CDATA[<p><img src="https://www.nasa.gov/sites/default/files/styles/ubernode_alt_horiz/public/thumbnails/image/jhelioviewer_march_5_flare_still_2.png" alt="插图"></p>

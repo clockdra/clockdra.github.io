@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://clockdra.github.io/"/>
-  <updated>2020-03-27T05:49:03.522Z</updated>
+  <updated>2020-03-27T07:41:47.701Z</updated>
   <id>https://clockdra.github.io/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo文章标题的错误</title>
+    <link href="https://clockdra.github.io/2020/03/28/Hexo%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98%E7%9A%84%E9%94%99%E8%AF%AF/"/>
+    <id>https://clockdra.github.io/2020/03/28/Hexo%E6%96%87%E7%AB%A0%E6%A0%87%E9%A2%98%E7%9A%84%E9%94%99%E8%AF%AF/</id>
+    <published>2020-03-27T22:11:44.000Z</published>
+    <updated>2020-03-27T07:41:47.701Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://www.nasa.gov/sites/default/files/thumbnails/image/phase01-gateway-2024_00003.jpg" alt="插图"></p><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>我写了一篇新博客 <a href="https://clockdra.github.io/2020/03/26/Linux%E6%9B%B4%E6%96%B0%E9%94%99%E8%AF%AF/">Linux更新错误</a> 。但是自己在创建博客的时候打的标题不是这个，在写完了之后自己打算改一个标题。于是我修改了新博客的文章对应的文件的名字。但是在自己重新生成提交博客之后发现文章还是不对，文章的标题还是之前的错误标题。  </p><figure class="highlight bash"><figcaption><span>自己使用的命令记录</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">hexo new <span class="string">"Linux的更新问题"</span>  <span class="comment">#这里是在创建新文章</span></span><br><span class="line">hexo g                     <span class="comment">#这里是生成新博客</span></span><br><span class="line">hexo d                     <span class="comment">#这里是提交文章</span></span><br><span class="line">mv <span class="built_in">source</span>/_posts/Linux的更新问题.md <span class="built_in">source</span>/_posts/Linux更新错误.md  <span class="comment">#重命名</span></span><br><span class="line">hexo g                     <span class="comment">#生成</span></span><br><span class="line">hexo d                     <span class="comment">#提交</span></span><br></pre></td></tr></table></figure><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p><code>Hexo</code> 的博客文章标题不是由文件名决定的，而是由文章的 <code>title</code> 标签决定的。所以应该修改完文件的名字之后再修改文件的 <code>title</code> 标签元素。<br>之后再运行一下  </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean                 <span class="comment">#清除之前的错误文件</span></span><br><span class="line">hexo g                     <span class="comment">#生成</span></span><br><span class="line">hexo d                     <span class="comment">#提交</span></span><br></pre></td></tr></table></figure></br></br></br></br></br></br>封面图片来源 https://apod.nasa.gov/apod/image/2003/SaturnMoon_Sojuel_960.jpg]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;https://www.nasa.gov/sites/default/files/thumbnails/image/phase01-gateway-2024_00003.jpg&quot; alt=&quot;插图&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问
+      
+    
+    </summary>
+    
+    
+      <category term="错误记录" scheme="https://clockdra.github.io/categories/%E9%94%99%E8%AF%AF%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="Hexo" scheme="https://clockdra.github.io/categories/%E9%94%99%E8%AF%AF%E8%AE%B0%E5%BD%95/Hexo/"/>
+    
+    
+      <category term="错误记录" scheme="https://clockdra.github.io/tags/%E9%94%99%E8%AF%AF%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="错误" scheme="https://clockdra.github.io/tags/%E9%94%99%E8%AF%AF/"/>
+    
+      <category term="Hexo" scheme="https://clockdra.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Git不能登录的错误</title>
