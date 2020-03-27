@@ -1,6 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Git不能登录的错误</title>
+    <url>/2020/03/26/Git%E4%B8%8D%E8%83%BD%E7%99%BB%E5%BD%95%E7%9A%84%E9%94%99%E8%AF%AF/</url>
+    <content><![CDATA[<p><img src="https://www.nasa.gov/sites/default/files/thumbnails/image/phase01-gateway-2024_00003.jpg" alt="插图"></p>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>之前在弄 <code>Hexo</code> 博客的时候遇到了 <code>Git</code> 登录一直失败的问题.<br>每一次自己使用 <code>Git Bash</code> 提交或者克隆的时候 <code>GitHub</code> 都会要求登录.比如在命令行输入 <code>git clone https://github.com/clockdra/clockdra.git</code> 之后会弹出登录的弹窗.但是我在输入了用户名和密码之后却提示下面这些信息  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+
+<h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2></br>
+</br>
+</br>
+</br>
+</br>
+</br>
+封面图片来源 https://apod.nasa.gov/apod/image/2003/SaturnMoon_Sojuel_960.jpg
+]]></content>
+      <categories>
+        <category>错误记录</category>
+        <category>Git</category>
+        <category>GitHub</category>
+        <category>SSH</category>
+      </categories>
+      <tags>
+        <tag>错误记录</tag>
+        <tag>错误</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Linuxg更新错误</title>
+    <url>/2020/03/26/Linux%E6%9B%B4%E6%96%B0%E9%94%99%E8%AF%AF/</url>
+    <content><![CDATA[<p><img src="https://apod.nasa.gov/apod/image/2003/S106_Mishra_960.jpg" alt="插图"></p>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><p>最近我更新Ubuntu的时候一直出错.  每次执行完  <code>apt-get update</code> 之后还是正常的,但是执行 <code>apt-get upgrade</code> 的时候就会出错.<br>错误的内容如下:  </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">E: 仓库 “http://ppa.***/ubuntu eoan Release” 没有 Release 文件。</span><br><span class="line">N: 无法安全地用该源进行更新，所以默认禁用该源。</span><br><span class="line">N: 参见 apt-secure(8) 手册以了解仓库创建和用户配置方面的细节。</span><br></pre></td></tr></table></figure>
+
+
+<p>错误:29 <a href="http://ppa.launchpad.net/morphis/anbox-support/ubuntu" target="_blank" rel="noopener">http://ppa.launchpad.net/morphis/anbox-support/ubuntu</a> eoan Release<br>404  Not Found [IP: 91.189.95.83 80]<br>正在读取软件包列表… 完成<br>E: 仓库 “<a href="http://ppa.launchpad.net/morphis/anbox-support/ubuntu" target="_blank" rel="noopener">http://ppa.launchpad.net/morphis/anbox-support/ubuntu</a> eoan Release” 没有 Release 文件。<br>N: 无法安全地用该源进行更新，所以默认禁用该源。<br>N: 参见 apt-secure(8) 手册以了解仓库创建和用户配置方面的细节。</p>
+<h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>一直出现这个问题,我反复使用了更新的命令也还是会因为这个错误而更新失败.<br>最后我去网上Google了错误信息.发现问题是因为我安装了一些软件,安装软件的时候添加了一些源.但是添加的源后来失效了.所以每次更新的时候遇到失效的源就会中断.解决方法当然就是把失效的源删掉啦.<br>先记住错误的源的名字,比如说   </p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">E: 仓库 “https://download.sublimetext.com apt/stable/ Release” 没有 Release 文件。</span><br><span class="line">N: 无法安全地用该源进行更新，所以默认禁用该源。</span><br><span class="line">N: 参见 apt-secure(8) 手册以了解仓库创建和用户配置方面的细节。</span><br></pre></td></tr></table></figure>
+
+<p>如果错误信息是这样的话,那么错误的源就是 <code>sublimetext</code><br>打开终端输入: <code>cd /etc/apt/sources.list.d/</code><br>然后删除错误的源对应的文件,注意别删错了.<br>然后再执行 <code>apt-get update</code> 更新一下就可以了.</p>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+封面图片来源 https://apod.nasa.gov/apod/image/2003/S106_Mishra_960.jpg
+]]></content>
+      <categories>
+        <category>错误记录</category>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>问题</tag>
+        <tag>错误记录</tag>
+        <tag>错误</tag>
+        <tag>Linux</tag>
+        <tag>Ubuntu</tag>
+        <tag>apt</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo搭建时遇到的坑(1)</title>
     <url>/2020/03/20/Hexo%E6%90%AD%E5%BB%BA%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91-1/</url>
     <content><![CDATA[<p><img src="https://www.nasa.gov/sites/default/files/thumbnails/image/phase01-gateway-2024_00003.jpg" alt="插图"></p>
