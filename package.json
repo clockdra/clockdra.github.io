@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "gitment": "0.0.3",
-    "hexo": "^4.0.0",
+    "hexo": "^4.2.0",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-calendar": "git://github.com/icecory/theme-next-calendar.git#hexo",

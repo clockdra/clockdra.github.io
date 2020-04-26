@@ -9,10 +9,10 @@ categories:
   - 错误记录
   - Hexo
 preview: 300
-summary_img: 'https://apod.nasa.gov/apod/image/2003/SaturnMoon_Sojuel_960.jpg'
+summary_img: 'https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/nh-pluto-atmosphere-infrared.png'
 date: 2020-03-27 14:11:44
 ---
-![插图](https://www.nasa.gov/sites/default/files/thumbnails/image/phase01-gateway-2024_00003.jpg)
+![插图](https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/nh-pluto-atmosphere-infrared.png)
 
 
 ## 问题

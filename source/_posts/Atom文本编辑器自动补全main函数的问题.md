@@ -12,10 +12,10 @@ categories:
   - 错误记录
   - 程序语言
 preview: 300
-summary_img: 'https://apod.nasa.gov/apod/image/2003/SaturnMoon_Sojuel_960.jpg'
+summary_img: 'https://www.nasa.gov/sites/default/files/styles/image_card_4x3_ratio/public/thumbnails/image/pluto_color_mapmosaic.jpg'
 date: 2020-04-05 10:32:00
 ---
-![插图](https://www.nasa.gov/sites/default/files/thumbnails/image/phase01-gateway-2024_00003.jpg)
+![插图](https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pluto_color_mapmosaic.jpg)
 
 
 ## 问题
