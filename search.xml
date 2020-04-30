@@ -165,11 +165,6 @@
 <td>这个的快捷键跟MarkDown的保存键冲突了，建议改一下快捷键。</td>
 </tr>
 <tr>
-<td>pigments</td>
-<td>这个显示文件和文件夹</td>
-<td></td>
-</tr>
-<tr>
 <td>atom-ide-terminal</td>
 <td>在atom中打开终端</td>
 <td>好像经常有一些乱码，不过可以节省一些时间</td>
